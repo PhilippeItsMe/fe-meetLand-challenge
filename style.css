@@ -89,7 +89,7 @@ nav {
     grid-area: buttonscontainer;
 }
 
-/* Main */
+/* People design */
 
 .people1 {
     grid-area: p1;
@@ -106,7 +106,7 @@ nav {
 
 .people1, .people2, .people3, .people4 {
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 .peoplecontainer {
@@ -165,7 +165,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 135px 0 0 0;
+	margin: 100px 0 0 0;
 	position: relative;
 }
 
@@ -219,7 +219,6 @@ footer p {
     color: #FAFAFA;
 }
 
-
 /* Tablet - Header */
 
 @media screen and (min-width: 1250px) {
@@ -268,9 +267,9 @@ footer p {
         grid-template-columns: 0.8fr 1fr 0.8fr;
         grid-template-rows: 1fr 0.5fr 0.5fr;
         grid-template-areas:
-        "heroleft headerh heroright"
-        "heroleft headerp heroright"
-        "heroleft buttonscontainer heroright";
+            "heroleft headerh heroright"
+            "heroleft headerp heroright"
+            "heroleft buttonscontainer heroright";
         max-width: 1400px;
         margin: auto;
     }
@@ -287,9 +286,6 @@ footer p {
         background-image: linear-gradient(rgba(77, 150, 169, 0.8),rgba(77, 150, 169, 0.8)), url(images/image-footer-tablet.jpg); 
     }
 }
-
-
-
 
 /* Desktop - Footer */
 
